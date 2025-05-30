@@ -2,7 +2,7 @@ const path = require('path')
 module.exports = {
   version: "3.7",
   title: "Bagel",
-  description: "[NVIDIA ONLY] Image generation, image editing and free-form manipulation with a VLM (Minimum Requirements 12GB VRAM / 32GB RAM Recommended Requirements 24GB VRAM / 48GB RAM)",
+  description: "[NVIDIA ONLY] [RTX 50 Support] Image generation, image editing and free-form manipulation with a VLM (Minimum Requirements 12GB VRAM / 32GB RAM Recommended Requirements 24GB VRAM / 48GB RAM)",
   icon: "icon.png",
   menu: async (kernel, info) => {
     let installed = info.exists("app/env")
