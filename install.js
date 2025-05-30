@@ -13,6 +13,7 @@ module.exports = {
       params: {
         uri: "torch.js",
         params: {
+          venv_python: "3.12",
           venv: "env",
           path: "app",
           // xformers: true,
