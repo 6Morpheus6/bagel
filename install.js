@@ -42,12 +42,10 @@ module.exports = {
       }
     },
     {
-      method: "hf.download",
+      method: "shell.run",
       params: {
         path: "app",
-        "_": [ "ByteDance-Seed/BAGEL-7B-MoT" ],
-        "include": '"*.json" "*.safetensors" "*.bin" "*.py" "*.md" "*.txt"',
-        "local-dir": "ckpt",
+        message: 'hf download ByteDance-Seed/BAGEL-7B-MoT --include "*.json" "*.safetensors" "*.bin" "*.py" "*.md" "*.txt" --local-dir ckpt && dir'
       }
     }
   ]
