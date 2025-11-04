@@ -53,7 +53,7 @@ module.exports = {
       method: "shell.run",
       params: {
         path: "app",
-        message: 'hf download ByteDance-Seed/BAGEL-7B-MoT --include "*.json" "*.safetensors" "*.bin" "*.py" "*.md" "*.txt" --local-dir ckpt && dir'
+        message: 'hf download ByteDance-Seed/BAGEL-7B-MoT --exclude "*.md" --local-dir ckpt && dir'
       }
     }
   ]
