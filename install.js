@@ -17,6 +17,14 @@ module.exports = {
       }
     },
     {
+      method: "shell.run",
+      params: {
+        message: [
+          "conda update -y -c conda-forge huggingface_hub",
+        ]
+      }
+    },
+    {
       method: "script.start",
       params: {
         uri: "torch.js",
